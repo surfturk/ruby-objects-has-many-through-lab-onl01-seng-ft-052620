@@ -28,7 +28,7 @@ def new_appointment(date, patient)
  
  def patients
    appointment.map do |appointment|
-      song.artist
+      a
  end   
  
  

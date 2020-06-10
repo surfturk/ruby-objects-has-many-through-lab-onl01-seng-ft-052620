@@ -27,7 +27,7 @@ def new_appointment(date, patient)
  end   
  
  def patients
-   Doctor.appointment.map do |appointment|
+   self.appointment.map do |appointment|
       appointments.name
  end   
  

@@ -21,7 +21,11 @@ class Patient
  end
   
   
-  
+  def patients
+   self.appointment.map do |appointment|
+      appointments.name
+ end   
+ 
   
   
 end  

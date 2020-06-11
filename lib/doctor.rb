@@ -27,7 +27,7 @@ def new_appointment(date, patient)
  end   
  
  def patients
-   self.appointment.collect do {}}
+   self.appointment.collect do {|apt| apt.patient}
  end   
  
  

@@ -21,9 +21,8 @@ def appointments
  
  
 def new_appointment(date, patient)    
-  appt = Appointment.new(date, self, patient)      
-  appt.doctor     
-  appt   
+  appt = Appointment.new(date, patient, self)      
+  
  end   
  
  def patients
